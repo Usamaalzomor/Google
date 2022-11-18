@@ -16,59 +16,67 @@
     </div>
     
 
-<div class="container justify-content-start">
+<div class="container m-3 justify-content-start">
     <form action="#">
         <h5>Find pages with...</h5>
         <div class="row mb-2">
-            <div class="col">
-                <label for="fname">
+            <div class="col-3">
+                <label class="col-form-label col-form-label-md text-nowrap" for="fname">
                     all these words:
                 </label>
             </div>
-            <div class="col">
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <div class="col-6">
+                <input class="form-control" type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+            <div class="col-3 text-nowrap">
+                <p class="right-lable">Type the important words: tri-colour rat terrier</p>
             </div>
         </div>
 
         <div class="row mb-2">
-            <div class="col">
-                <label for="fname">
+            <div class="col-3">
+                <label class="col-form-label col-form-label-md text-nowrap " for="fname">
                     this exact word or phrase:
                 </label>
             </div>
-            <div class="col">
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <div class="col-6">
+                <input class="form-control" type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+            <div class="col-3 text-nowrap">
+                <p class="right-lable">Put exact words in quotes: "rat terrier"</p>
             </div>
         </div>
 
         <div class="row mb-2">
-            <div class="col">
-                <label for="fname">
+            <div class="col-3">
+                <label class="col-form-label col-form-label-md text-nowrap" for="fname">
                     any of these words:
                 </label>
             </div>
-            <div class="col">
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <div class="col-6">
+                <input class="form-control" type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+            <div class="col-3 text-nowrap">
+                <p class="right-lable">Type OR between all the words you want: miniature OR standard</p>
             </div>
         </div>
 
         <div class="row mb-2">
-            <div class="col">
-                <label for="fname">
+            <div class="col-3">
+                <label class="col-form-label col-form-label-md text-nowrap" for="fname">
                     none of these words:
                 </label>
             </div>
-            <div class="col">
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <div class="col-6">
+                <input class="form-control" type="text" id="fname" name="firstname" placeholder="Your name..">
+                <div class="d-grid justify-content-end my-4">
+                    <input class="btn btn-primary btn-sm" type="submit" value="Advanced Search" style="width:150px">
+                </div>
             </div>
+            <div class="col-3 text-nowrap">
+                <p class="right-lable">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</p>
+            </div>           
         </div>
-
-        <br>
-
-        <div class="d-grid justify-content-end">
-            <input class="btn btn-primary btn-sm" type="submit" value="Advanced Search" style="width:150px">
-        </div>
-
     </form>
 </div>
 
