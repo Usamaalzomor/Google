@@ -17,7 +17,7 @@
     
 
 <div class="container m-3 justify-content-start">
-    <form action="#">
+    <form action="http://www.google.com/search">
         <h5>Find pages with...</h5>
         <div class="row mb-2">
             <div class="col-3">
@@ -26,7 +26,8 @@
                 </label>
             </div>
             <div class="col-6">
-                <input class="form-control" type="text" id="fname" name="firstname" placeholder="Your name..">
+                <input type="hidden" name="as_qdr" value="all">
+                <input class="form-control" type="text" id="fname" name="as_q" >
             </div>
             <div class="col-3 text-nowrap">
                 <p class="right-lable">Type the important words: tri-colour rat terrier</p>
@@ -40,7 +41,8 @@
                 </label>
             </div>
             <div class="col-6">
-                <input class="form-control" type="text" id="fname" name="firstname" placeholder="Your name..">
+                <input type="hidden" name="as_qdr" value="all">
+                <input class="form-control" type="text" id="fname" name="as_epq" >
             </div>
             <div class="col-3 text-nowrap">
                 <p class="right-lable">Put exact words in quotes: "rat terrier"</p>
@@ -54,7 +56,8 @@
                 </label>
             </div>
             <div class="col-6">
-                <input class="form-control" type="text" id="fname" name="firstname" placeholder="Your name..">
+                <input type="hidden" name="as_qdr" value="all">
+                <input class="form-control" type="text" id="fname" name="as_oq" >
             </div>
             <div class="col-3 text-nowrap">
                 <p class="right-lable">Type OR between all the words you want: miniature OR standard</p>
@@ -68,7 +71,8 @@
                 </label>
             </div>
             <div class="col-6">
-                <input class="form-control" type="text" id="fname" name="firstname" placeholder="Your name..">
+                <input type="hidden" name="as_qdr" value="all">
+                <input class="form-control" type="text" id="fname" name="as_eq" >
                 <div class="d-grid justify-content-end my-4">
                     <input class="btn btn-primary btn-sm" type="submit" value="Advanced Search" style="width:150px">
                 </div>
